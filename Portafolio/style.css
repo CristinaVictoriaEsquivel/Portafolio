@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+:root{
+   --cor-de-fundo: rgb(245, 245, 245);
+   --cor-de-link: rgb(207, 9, 108);
+}
+
+body {
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 15;
+    padding: 0;
+    line-height: 3;
+    justify-content: center;
+}
+
+ol,ul,li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/*Sección Menu*/
+section.menu{
+    padding: 10px;
+}
+#vector{
+    position: absolute;
+    top: .2%;
+    left: 90%;
+    margin: auto;
+}
+
+.menu__title1{
+    font-size: 35px;
+    position: absolute;
+    text-align: center;
+    top: 0%;
+    margin: auto;
+}
+
+.menu__title2{
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    top: 1%;
+    left: 37%;
+    margin: auto;
+}
+
+.menu1{
+    position: absolute;
+    top: 11%;
+    left: 25%;
+    margin: auto;
+}
+
+.tmenu__lis{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(240, 204, 224);
+}
+
+.menu__list__item{
+    font-size: 20px;
+    float: left;
+    display: block;
+    color: rgb(122, 98, 113);
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+.menu__list__item:hover {
+        background-color: #111;
+}
+
+/*Sección Title*/
+
+section.title{
+    padding: 15%;
+}
+.ltitle__profie{
+    position: absolute;
+    top: 3%;
+    left: 40%;
+    margin: auto;
+}
+
+.title__bio{
+    position: absolute;
+    top: 8%;
+    left: 17%;
+    margin: auto;
+}
+
+.title__subsection{
+    position: absolute;
+    top: 9%;
+    left: 22%;
+    margin: auto;
+}
+.title1{
+    position: absolute;
+    top: 9.5%;
+    left: 30%;
+    margin: auto;
+}
+.ltitle__profie{
+    position: absolute;
+    margin: auto;
+}
+
+.title__network{
+    list-style-type: none;
+    margin: 5;
+    padding: 0;
+    overflow: hidden;
+}
+
+.title__network__item{
+    font-size: 20px;
+    float: left;
+    display: block;
+    color: rgb(122, 98, 113);
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+/*Sección About*/
+
+section.about{
+    padding: 20%;
+    margin-top: 25%
+}
+
+/*Sección Hobbies*/
+
+section.hobbies{
+    padding: 10%;
+}
+
+/* Experiencia Académica*/
+
+section.academic{
+    padding: 10%;
+}
+
+/* experiencia*/
+
+section.experience{
+    padding: 10%;
+}
+
+/*Contacto*/
+
+section.formcontato{
+    padding: 10%;
+}
+
+/*footeer*/
+
+section.footer{
+    padding: 0%;
+    background-color:rgb(212, 181, 198);
+    width: 100%;
+    display: block;
+}
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}
